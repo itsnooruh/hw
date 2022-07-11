@@ -1,0 +1,44 @@
+@font-face {
+  font-family: Pacifico Regular;
+  src: url(../fonts/Pacifico-Regular.ttf);
+}
+
+@font-face {
+  font-family: Poppins Light;
+  src: url(../fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: LibreFranklin Light;
+  src: url(../fonts/LibreFranklin-Light.ttf);
+}
+
+@font-face {
+  font-family: Poppins SemiBold;
+  src: url(../fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Poppins Bold;
+  src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: PlayfairDisplay Medium;
+  src: url(../fonts/PlayfairDisplay-Medium.ttf);
+}
+
+@font-face {
+  font-family: LibreFranklin SemiBold;
+  src: url(../fonts/LibreFranklin-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Poppins Thin;
+  src: url(../fonts/Poppins-Thin.ttf);
+}
+
+@font-face {
+  font-family: Lato Light;
+  src: url(../fonts/Lato-Light.ttf);
+}
