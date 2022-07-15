@@ -438,13 +438,13 @@ input[type="checkbox"] {
   cursor: pointer;
 }
 
-label{
+label {
   font-family: Lato Light;
   font-size: 14px;
   color: #a1a1a1;
 }
 
-.logo2{
+.logo2 {
   font-family: Pacifico Regular;
   font-size: 33px;
   margin-top: 300px;
@@ -452,7 +452,7 @@ label{
   cursor: pointer;
 }
 
-.footertext{
+.footertext {
   font-family: LibreFranklin Light;
   font-size: 14px;
   color: #6c6c6c;
@@ -461,7 +461,7 @@ label{
   text-align: center;
 }
 
-.contact{
+.contact {
   font-family: LibreFranklin Light;
   font-size: 14px;
   color: #000000;
@@ -469,7 +469,7 @@ label{
   line-height: 24px;
 }
 
-.contacts{
+.contacts {
   display: flex;
   justify-content: space-around;
   text-align: center;
@@ -477,24 +477,24 @@ label{
   margin-bottom: 60px;
 }
 
-.comm{
+.comm {
   margin-top: 20px;
   color: #6c6c6c;
 }
 
-.template{
+.template {
   font-family: LibreFranklin Light;
   font-size: 12px;
   color: #000000;
   margin-top: 30px;
   text-align: center;
   height: 80px;
-  background-color: #DBDBDB1A;
-  border: 1px solid #DBDBDB1A;
+  background-color: #dbdbdb1a;
+  border: 1px solid #dbdbdb1a;
   padding: 35px;
 }
 
-.smth{
+.smth {
   color: #6c6c6c;
   text-align: center;
 }
