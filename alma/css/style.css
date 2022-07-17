@@ -11,6 +11,11 @@ body {
   height: 2000px;
 }
 
+.container {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
 button,
 input {
   border: none;
@@ -136,3 +141,108 @@ header {
   border-radius: 3px;
   background: rgba(255, 255, 255, 0.2);
 }
+
+/* Intro */
+
+/* Partner */
+
+.partner {
+  width: 100%;
+
+  border-bottom: 1px solid #f0efec;
+}
+
+.partner__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.partner__text {
+  width: 167px;
+  line-height: 1.5;
+  color: #5b5855;
+}
+
+.partner__logo {
+}
+
+/* Partner */
+
+/* Why */
+
+.why {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.why__img{
+ width: 80%;
+}
+
+.why__suptitle {
+  margin-bottom: 15px;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #497557;
+}
+
+.why__title {
+  margin-bottom: 15px;
+
+  font-size: 38px;
+  width: 330px;
+  color: #02291c;
+}
+
+.why__box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.why__item {
+  width: 400px;
+  height: 65px;
+  padding: 20px;
+
+  position: relative;
+
+  background-color: #f9f9f7;
+  border-radius: 2px;
+
+  transition: 0.2s;
+}
+
+.why__item img,
+.why__item p {
+  display: inline-block;
+}
+
+.why__item:hover {
+  height: 150px;
+
+  background-color: #dce3dd;
+}
+
+.item__content {
+  position: absolute;
+  width: 308px;
+  bottom: 30px;
+  padding-left: 20px;
+
+  color: #5b5855;
+  opacity: 0;
+}
+
+.why__item:hover .item__content {
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+
+/* Why */
