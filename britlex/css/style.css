@@ -35,7 +35,7 @@ header {
 
 .logo {
   font-family: Poppins Light;
-  font-size: 25px;
+  font-size: 30px;
 
   cursor: pointer;
 }
@@ -666,6 +666,8 @@ hr {
 
   .right__up {
     gap: 12px;
+
+    margin-bottom: 12px;
   }
 
   .up__left {
@@ -781,6 +783,8 @@ hr {
 
   /* Info */
 
+  /*/
+
   /* Pricing */
 
   .block4__title {
@@ -793,6 +797,12 @@ hr {
     gap: 50px;
   }
 
+  .box1,
+  .box2,
+  .box3 {
+    width: 310px;
+  }
+
   .price__title {
     font-size: 18px;
     font-weight: 600;
@@ -800,13 +810,17 @@ hr {
     margin-bottom: 10px;
   }
 
+  .box1 .price__title {
+    margin-top: 20px;
+  }
+
   .box2 .price__title {
-    margin-top: 5px;
+    margin-top: 20px;
     margin-left: 20px;
   }
 
   .box3 .price__title {
-    margin-left: 20px;
+    margin-top: 25px;
   }
 
   .price__text {
@@ -815,44 +829,46 @@ hr {
   }
 
   .box1 .price__text {
-    width: 230px;
+    width: 280px;
   }
 
   .box2 .price__text {
     margin-left: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
   }
 
   .box3 .price__text {
-    margin-left: 20px;
+    padding: 0 20px 0 0;
+
+    margin-bottom: 20px;
   }
 
   .price {
     font-size: 18px;
 
-    padding: 1px 18px;
+    padding: 1.5px 20px;
   }
 
   .box2 .price {
     margin-left: 20px;
   }
 
-  .box3 .price {
-    margin-left: 20px;
-  }
-
-  .price__img1, .price__img2, .price__img3{
+  .price__img1,
+  .price__img2,
+  .price__img3 {
     height: 180px;
   }
 
   .price__img1 img {
     width: 181px;
     height: 181px;
+
+    margin-left: 20px;
   }
 
   .price__img2 img {
-    width: 306px;
-    height: 177px;
+    width: 316px;
+    height: 187px;
   }
 
   .price__img3 img {
@@ -861,6 +877,8 @@ hr {
   }
 
   /* Pricing */
+
+  /*/
 
   /* Contact */
 
@@ -874,41 +892,490 @@ hr {
   }
 
   .info__title {
-    font-size: 25px;
+    font-size: 30px;
 
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
 
   .info__conttext {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 20px;
 
-    margin-bottom: 25px;
+    padding-right: 70px;
+    margin-bottom: 30px;
   }
 
-  .email {
-    font-size: 10px;
-    padding: 12px 120px 12px 35px;
+  /* Contact */
 
-    border-radius: 10px;
-  }
+  /*/ 
 
-  .subscribe {
-    font-size: 12px;
-    padding: 12px 40px;
-
-    border-radius: 10px;
-  }
+  /* Footer */
 
   .end {
     padding: 20px 30px;
   }
 
   .end__text {
-    font-size: 12px;
+    font-size: 14px;
   }
-
-  /* Contact */
+  /* Footer */
 }
 
 /* Media 992px */
+
+/*/
+
+/* Media 767px */
+
+@media (max-width: 767px) {
+  /* Header */
+  .nav,
+  .button1 {
+    display: none;
+  }
+
+  header {
+    padding: 30px 35px;
+  }
+
+  .logo {
+    font-size: 25px;
+  }
+
+  /* Header */
+
+  /*/
+  
+  /* Intro */
+
+  .intro {
+    padding: 105px 35px 0 35px;
+  }
+
+  .intro__info {
+    width: 345px;
+  }
+
+  .minibox__title {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .minibox__img img {
+    width: 65px;
+    height: 65px;
+
+    margin-right: 120px;
+  }
+
+  .info__text {
+    font-size: 14px;
+    line-height: 20px;
+
+    margin-right: 50px;
+  }
+
+  .button2 {
+    font-size: 18px;
+
+    padding: 15px 65px;
+  }
+
+  .intro__img img {
+    width: 351px;
+    height: 351px;
+  }
+
+  /* Intro */
+
+  /*/ 
+
+  /* Block 2 */
+
+  .block2__title {
+    font-size: 28px;
+  }
+
+  .block2__box {
+    padding: 50px 35px;
+    gap: 10px;
+  }
+
+  .box__left {
+    height: 600px;
+    width: 220px;
+
+    padding: 0 20px 0 20px;
+  }
+
+  .right__up {
+    gap: 10px;
+
+    margin-bottom: 10px;
+  }
+
+  .up__left {
+    width: 230px;
+
+    padding: 0 20px 0 20px;
+  }
+
+  .up__right {
+    width: 230px;
+
+    padding: 0 20px 0 20px;
+  }
+
+  .right__down {
+    height: 205px;
+    width: 470px;
+
+    padding: 0 20px 0 20px;
+  }
+
+  .down__box {
+    margin-right: 10px;
+  }
+
+  .box__img1 img {
+    width: 205px;
+    height: 205px;
+
+    margin-bottom: 25px;
+    margin-top: 15px;
+    padding-right: 25px;
+  }
+
+  .box__img2 img {
+    width: 173px;
+    height: 173px;
+
+    margin-left: 0;
+  }
+
+  .box__img3 img {
+    width: 222px;
+    height: 157px;
+
+    padding-top: 35px;
+    margin-bottom: 5px;
+  }
+
+  .box__img4 img {
+    width: 262px;
+    height: 135px;
+  }
+
+  .box__title {
+    font-size: 18px;
+  }
+
+  .up__left .box__title {
+    margin-top: -10px;
+  }
+
+  .box__text {
+    width: 190px;
+  }
+
+  .button3 {
+    font-size: 13px;
+
+    padding: 8px 35px;
+  }
+
+  /* Block 2*/
+
+  /*/
+
+  /* Info */
+
+  .info__box {
+    padding: 30px 35px 70px 35px;
+  }
+
+  .item__title {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  .item__text {
+    font-size: 12px;
+    line-height: 18px;
+
+    padding: 0 110px 0 0;
+  }
+
+  .digit {
+    font-size: 20px;
+  }
+
+  .number__text {
+    font-size: 10px;
+  }
+
+  .box__imginfo img {
+    width: 270px;
+    height: 270px;
+  }
+  /* Info */
+
+  /*/
+
+  /* Pricing */
+
+  .block4__title {
+    font-size: 28px;
+  }
+
+  .block4__box {
+    padding: 10 35px;
+    gap: 25px;
+  }
+
+  .box1,
+  .box2,
+  .box3 {
+    width: 240px;
+  }
+
+  .price__title {
+    font-size: 17px;
+
+    width: 120px;
+  }
+
+  .box1 .price__title {
+    margin-top: 0;
+  }
+
+  .box2 .price__title {
+    margin-top: 0px;
+  }
+
+  .box3 .price__title {
+    margin-top: -5px;
+  }
+
+  .price__text {
+    font-size: 12px;
+  }
+
+  .box1 .price__text {
+    width: 180px;
+  }
+
+  .box2 .price__text {
+    margin-bottom: 40px;
+  }
+
+  .box3 .price__text {
+    width: 220px;
+
+    margin-bottom: 45px;
+  }
+
+  .price__img1,
+  .price__img2,
+  .price__img3 {
+    height: 180px;
+  }
+
+  .price__img1 img {
+    width: 161px;
+    height: 161px;
+
+    margin-left: 0;
+  }
+
+  .price__img2 img {
+    width: 296px;
+    height: 167px;
+
+    padding-right: 60px;
+  }
+
+  .price__img3 img {
+    width: 195px;
+    height: 191px;
+
+    padding-top: 0;
+    padding-bottom: 30px;
+  }
+
+  .price {
+    font-size: 20px;
+
+    padding: 3px 28px;
+  }
+
+  /* Pricing */
+
+  /*/ 
+
+  /* Contact */
+
+  .contact {
+    padding: 50px 35px 100px 35px;
+
+    gap: 30px;
+  }
+
+  .info__title {
+    font-size: 25px;
+
+    margin-bottom: 15px;
+  }
+
+  .info__conttext {
+    font-size: 13px;
+
+    padding-right: 120px;
+    margin-bottom: 25px;
+  }
+
+  .contact__img img {
+    width: 236px;
+    height: 176px;
+  }
+
+  .emailbox {
+    gap: 5px;
+  }
+
+  .email {
+    padding: 15px 150px 15px 20px;
+  }
+
+  .subscribe {
+    font-size: 12px;
+
+    padding: 10px 40px;
+  }
+
+  /* Contact */
+
+  /*/
+
+  /* Footer */
+
+  .end {
+    padding: 20px 35px;
+  }
+
+  .end__text {
+    font-size: 12px;
+  }
+
+  .end .logo {
+    font-size: 25px;
+  }
+
+  /* Footer */
+}
+
+/* Media 767px */
+
+/*/
+
+/* Media 575px */
+
+@media (max-width: 575px) {
+  /* Header */
+  header {
+    padding: 30px 30px;
+  }
+
+  /* Header */
+
+  /*/
+
+  /* Intro */
+
+  .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+
+    padding: 50px 30px;
+  }
+
+  .intro__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .intro__img img {
+    width: 431px;
+    height: 431px;
+  }
+
+  .minibox__img img {
+    display: none;
+  }
+
+  .minibox__title {
+    font-size: 27px;
+  }
+
+  .info__text {
+    width: 425px;
+
+    margin-right: 0px;
+  }
+  /* Intro */
+
+  /*/
+
+  /* Block 2 */
+
+  .block2__box {
+    padding: 0 30px;
+  }
+
+  .box__left {
+    height: 550px;
+    width: 250px;
+
+  }
+
+  .right__up {
+    display: flex;
+    flex-direction: column;
+
+    height: 550px;
+    width: 250px;
+  }
+
+  .right__down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 550px;
+    width: 250px;
+
+  }
+
+  .down__box {
+    display: flex;
+    flex-direction: column;
+  }
+  /* Block 2 */
+
+  /*/
+
+  /* Info */
+
+.info__box{
+  flex-direction: column;
+}
+
+  /* Info */
+}
+
+/* Media 575px */
